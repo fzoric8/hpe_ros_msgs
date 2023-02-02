@@ -17,7 +17,8 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   TorsoJointPositions.msg
-  ArmCmd.msg
+  JointArmCmd.msg
+  CartesianArmCmd.msg
 )
 
 generate_messages(
