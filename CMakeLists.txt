@@ -19,6 +19,7 @@ add_message_files(
   TorsoJointPositions.msg
   JointArmCmd.msg
   CartesianArmCmd.msg
+  EstLinkLengths.msg
 )
 
 generate_messages(
