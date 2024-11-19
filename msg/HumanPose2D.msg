@@ -1,0 +1,20 @@
+std_msgs/Header         header
+vision_msgs/Point2D     nose
+vision_msgs/Point2D     l_eye
+vision_msgs/Point2D     r_eye
+vision_msgs/Point2D     l_ear
+vision_msgs/Point2D     r_ear
+vision_msgs/Point2D     neck 
+vision_msgs/Point2D     r_shoulder
+vision_msgs/Point2D     l_shoulder 
+vision_msgs/Point2D     r_elbow 
+vision_msgs/Point2D     l_elbow 
+vision_msgs/Point2D     r_wrist 
+vision_msgs/Point2D     l_wrist 
+vision_msgs/Point2D     r_hip
+vision_msgs/Point2D     l_hip 
+vision_msgs/Point2D     r_knee
+vision_msgs/Point2D     l_knee
+vision_msgs/Point2D     r_ankle
+vision_msgs/Point2D     l_ankle
+

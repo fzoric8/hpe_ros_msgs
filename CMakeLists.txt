@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
   sensor_msgs
+  vision_msgs
   message_generation
 )
 
@@ -20,14 +21,16 @@ add_message_files(
   JointArmCmd.msg
   CartesianArmCmd.msg
   EstLinkLengths.msg
+  HumanPose2D.msg
 )
 
 generate_messages(
   DEPENDENCIES
   std_msgs
   geometry_msgs
+  vision_msgs
 )
 
 catkin_package(
-  CATKIN_DEPENDS roscpp rospy std_msgs message_runtime
+  CATKIN_DEPENDS roscpp rospy std_msgs vision_msgs message_runtime
 )
