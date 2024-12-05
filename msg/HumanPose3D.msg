@@ -1,0 +1,20 @@
+std_msgs/Header         header
+geometry_msgs/Point     nose
+geometry_msgs/Point     l_eye
+geometry_msgs/Point     r_eye
+geometry_msgs/Point     l_ear
+geometry_msgs/Point     r_ear
+geometry_msgs/Point     neck 
+geometry_msgs/Point     r_shoulder
+geometry_msgs/Point     l_shoulder 
+geometry_msgs/Point     r_elbow 
+geometry_msgs/Point     l_elbow 
+geometry_msgs/Point     r_wrist 
+geometry_msgs/Point     l_wrist 
+geometry_msgs/Point     r_hip
+geometry_msgs/Point     l_hip 
+geometry_msgs/Point     r_knee
+geometry_msgs/Point     l_knee
+geometry_msgs/Point     r_ankle
+geometry_msgs/Point     l_ankle
+

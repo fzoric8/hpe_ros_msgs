@@ -22,6 +22,9 @@ add_message_files(
   CartesianArmCmd.msg
   EstLinkLengths.msg
   HumanPose2D.msg
+  HandPose2D.msg
+  HumanPose3D.msg
+  HandPose3D.msg
 )
 
 generate_messages(
